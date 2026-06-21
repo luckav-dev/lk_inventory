@@ -7,6 +7,37 @@ interface, copied in unchanged.
 
 > Status: feature-complete core; advanced systems built out across the phases
 > below. Pure logic is unit-tested; FiveM-native paths await a live-server pass.
+---
+
+## Preview
+
+<div align="center">
+
+<img src="https://i.imgur.com/YrvYzRF.png" width="800" alt="Classic Layout" />
+
+<br/><br/>
+
+<img src="https://i.imgur.com/MUjvjGF.png" width="800" alt="Inventory Overview" />
+
+<br/><br/>
+
+<img src="https://i.imgur.com/li5kSBA.png" width="800" alt="Compact Layout" />
+
+<br/><br/>
+
+<img src="https://i.imgur.com/W4LXvR6.png" width="800" alt="Stash View" />
+
+<br/><br/>
+
+<img src="https://i.imgur.com/b59sf1A.png" width="800" alt="Weapon Modification" />
+
+<br/><br/>
+
+<img src="https://i.imgur.com/iiQwshA.png" width="800" alt="Crafting System" />
+
+</div>
+
+---
 
 ## Language
 The whole inventory is multilingual — interface, in-world prompts and messages
