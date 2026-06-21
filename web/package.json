@@ -1,0 +1,31 @@
+{
+  "name": "lk-inventory-web",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "web/build",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "watch": "vite build --watch",
+    "build": "svelte-check --tsconfig ./tsconfig.json && vite build",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@svelteuidev/composables": "0.15.7",
+    "@svelteuidev/core": "0.15.7",
+    "dompurify": "^3.4.2",
+    "marked": "^18.0.3",
+    "svelte": "^4.2.20"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@tsconfig/svelte": "^5.0.4",
+    "sass": "^1.100.0",
+    "svelte-check": "^4.1.1",
+    "svelte-preprocess": "^6.0.3",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
