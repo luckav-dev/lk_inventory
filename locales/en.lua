@@ -1,0 +1,121 @@
+return {
+    -- Actions / context menu
+    ui_use = 'Use',
+    ui_give = 'Give',
+    ui_drop = 'Drop',
+    ui_throw = 'Throw',
+    ui_close = 'Close',
+    ui_buy = 'Buy',
+    ui_modify = 'Modify',
+    ui_remove = 'Remove',
+    ui_cancel = 'Cancel',
+    ui_actions = 'Actions',
+    ui_components = 'Components',
+    ui_remove_ammo = 'Remove ammo',
+    ui_copy = 'Copy serial number',
+
+    -- Tooltip / item meta
+    ui_weight = 'Weight',
+    ui_durability = 'Durability',
+    ui_ammo = 'Ammo',
+    ui_type = 'Type',
+    ui_serial = 'Serial number',
+
+    -- Notifications / states
+    ui_added = 'Added',
+    ui_removed = 'Removed',
+    ui_rejected = 'Rejected',
+    ui_inventory = 'Inventory',
+    ui_loot_all = 'Loot all',
+    ui_looted_all = 'Looted all',
+    ui_no_space = 'No space',
+
+    -- Inventory headers
+    ui_player = 'Player',
+    ui_ground = 'Ground',
+    ui_target = 'Target',
+    ui_shared = 'Shared',
+    ui_cash = 'Cash',
+    ui_bank = 'Bank',
+    ui_hotbar = 'Hotbar',
+
+    -- PIN / security
+    ui_pin_incorrect = 'Incorrect PIN',
+    ui_security_system = 'Security System',
+    ui_encrypted_access = 'Encrypted Access',
+    ui_pin_prompt = 'Enter the 4-digit PIN code to authorize unlocking the stash.',
+
+    -- Theme config
+    ui_default = 'Default',
+    ui_color_red = 'Red',
+    ui_color_orange = 'Orange',
+    ui_color_yellow = 'Yellow',
+    ui_color_green = 'Green',
+    ui_color_cyan = 'Cyan',
+    ui_color_blue = 'Blue',
+    ui_color_purple = 'Purple',
+    ui_color_pink = 'Pink',
+    ui_theme_config = 'Theme Configuration',
+    ui_theme_subtitle = 'Customize your interface accent color',
+    ui_preset_colors = 'Preset Colors',
+    ui_custom_color = 'Custom Color',
+    ui_layout = 'Interface Layout',
+    ui_layout_classic = 'Classic',
+    ui_layout_compact = 'Compact',
+    ui_save_close = 'Save & Close',
+
+    -- Crafting
+    ui_crafting_title = 'Crafting & Processing Bench',
+    ui_crafting_subtitle = 'Create and assemble new items with your materials',
+    ui_available_recipes = 'Available Recipes',
+    ui_recipe_available = 'Recipe available to craft.',
+    ui_required_materials = 'Required Materials',
+    ui_crafting_progress = 'Crafting...',
+    ui_start_assembly = 'Start Assembly',
+
+    -- Weapon modal
+    ui_weapon_modification = 'Weapon Modification',
+    ui_top_sockets = 'Top Sockets',
+    ui_extra_attachments = 'Extra Attachments',
+    ui_in_inventory = 'In Inventory',
+    ui_empty_socket = 'Empty Socket',
+    ui_socket_optic = 'Optic',
+    ui_socket_muzzle = 'Muzzle',
+    ui_socket_flashlight = 'Flashlight',
+    ui_socket_magazine = 'Magazine',
+    ui_weapon_mod_hint = 'Use a compatible attachment to install it. Click a socket to unequip.',
+
+    -- Clothing toggles
+    ui_clothing = 'Clothing',
+    ui_clothing_hat = 'Hat / Helmet',
+    ui_clothing_mask = 'Mask',
+    ui_clothing_glasses = 'Glasses',
+    ui_clothing_ear = 'Ears / Earrings',
+    ui_clothing_neck = 'Neck Accessories',
+    ui_clothing_torso = 'Torso / Shirt',
+    ui_clothing_vest = 'Vest',
+    ui_clothing_bag = 'Backpack',
+    ui_clothing_pants = 'Pants',
+    ui_clothing_shoes = 'Shoes',
+    ui_clothing_watch = 'Watch',
+    ui_clothing_bracelets = 'Bracelets',
+
+    -- In-world prompts (Lua)
+    hint_pickup = '[E] Pick up  ·  [G] Kick',
+    hint_search = '[E] Search',
+    hint_setdown = '[E] Set down',
+    hint_open = '[E] %s',
+
+    -- Server/client messages (Lua)
+    vehicle_locked = 'Vehicle is locked',
+    wrong_pin = 'Wrong PIN',
+    crafting_failed = 'Crafting failed — materials lost',
+    equip_weapon_first = 'Equip a weapon first',
+    equip_to_repair = 'Equip the weapon you want to repair',
+    weapon_repaired = 'Weapon repaired',
+    weapon_broken = 'Your weapon is broken',
+    no_permission = 'No permission',
+    pickpocket_victim = 'Someone just tried to pickpocket you!',
+    pickpocket_failed = 'You failed and got noticed',
+    lifted_item = 'You lifted a %s',
+}
